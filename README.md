@@ -10,11 +10,11 @@ Format of the aforementioned files:
   - AND character is presented as the change line “\n”
   - OR character is presented as space " "
 > #### Files Included<br/>
-> -**CNFClause**: Arraylist of CNF subclauses (which are clauses) related to the "AND" operator. <br/>
-> -**Literal**: Contains the Literal name of a clause, checking if it is negative or not.<br/>
-> -**MainResolution**: Performs the resolution algorithm for provided files (knowledge base and the negative clause) via PL_Analysis method. Finally, it shows whether the                            negative clause is true or false.<br/>
-> -**SubClause**: Contains Literals HashSet for each sub-clause of a CNF clause.<br/>
-> -**CNFUtils**: Reads data from the given files. (Common class for both propositional models)<br/>
+> - **CNFClause** : Arraylist of CNF subclauses (which are clauses) related to the "AND" operator. <br/>
+> - **Literal** : Contains the Literal name of a clause, checking if it is negative or not.<br/>
+> - **MainResolution** : Performs the resolution algorithm for provided files (knowledge base and the negative clause) via PL_Analysis &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;method. Finally, it shows whether the negative clause is true or false.<br/>
+> - **SubClause** : Contains Literals HashSet for each sub-clause of a CNF clause.<br/>
+> - **CNFUtils** : Reads data from the given files. (Common class for both propositional models)<br/>
 
 ### Forward chaining Reasoning with Horn clauses:
 Ένα αρχείο KnowledgeBaseHorn.txt που περιέχει τη βάση γνώσης με την παρακάτω
