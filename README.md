@@ -9,19 +9,12 @@ Format of the aforementioned files:
   - NOT character is presented as "-"
   - AND character is presented as the change line “\n”
   - OR character is presented as space " "
-
-o CNFClause.java : περιέχει Arraylist με τα subclauses που υπάρχουν σε μια
-πρόταση σε μορφή CNF και συνδέονται με AND.
-o Literal.java : περιέχει το όνομα ενός Literal μιας πρότασης, ελέγχοντας αν
-βρίσκεται σε άρνηση ή οχι.
-o MainResolution.java : τρέχει τον αλγόριθμο της ανάλυσης (resolution) για τα
-δοθούντα αρχεία (βαση γνώσης και την άρνηση της πρότασης) μέσω της
-μεθόδου PL_Resolution. Τέλος, εμφανίζει αν η άρνηση της πρότασης είναι
-αληθής ή ψευδής.
-o SubClause.java : Περιέχει HashSet με Literals που έχει το κάθε subclause μιας
-πρότασης σε CNF.
-o CNFUtils.java : (κοινή κλάση με το Horn) που διαβάζουμε τα δοθούντα
-αρχεία.
+> #### Files Included<br/>
+> -**CNFClause**: Arraylist of CNF subclauses (which are clauses) related to the "AND" operator. <br/>
+> -**Literal**: Contains the Literal name of a clause, checking if it is negative or not.<br/>
+> -**MainResolution**: Performs the resolution algorithm for provided files (knowledge base and the negative clause) via PL_Analysis method. Finally, it shows whether the                            negative clause is true or false.<br/>
+> -**SubClause**: Contains Literals HashSet for each sub-clause of a CNF clause.<br/>
+> -**CNFUtils**: Reads data from the given files. (Common class for both propositional models)<br/>
 
 ### Forward chaining Reasoning with Horn clauses:
 Ένα αρχείο KnowledgeBaseHorn.txt που περιέχει τη βάση γνώσης με την παρακάτω
