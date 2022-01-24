@@ -17,7 +17,7 @@ Format of the aforementioned files :
 - **CNFUtils** : Reads data from the given files. (Common class for both propositional models)<br>
 
 ### Forward chaining Reasoning with Horn clauses:
-A Knowledge Base which is formated as seen below:
+A Knowledge Base which is formatted as seen below:
 
 >Each line corresponds to a Horn clause ("\n").
  - AND operator is presented as " "
@@ -25,7 +25,7 @@ A Knowledge Base which is formated as seen below:
 #### *Files Included*<br>
  - **ClauseHorn**: Arraylist of Horn clauses symbols.<br>
  - **KB**( KnowledgeBase): Storage of Horn clauses into two ArrayLists.
- Here we store the suggestions of our knowledge base. Inside first
+ Here we store the suggestions of our knowledge base. Inside the first
  ArrayList we store the symbols that were only in the knowledge base (**facts**)
   and inside the second Horn clause ArrayList we have the clauses that are excluded from the facts.<br> 
  - **MainHorn** : Saves the current knowledge base and the set of symbols
